@@ -1,4 +1,6 @@
 # Front-End Interview Questions
+This information is intended for the potential Front End Developer candidates.
+The following list include a basic theoretical and code questions. 
 
 ## List of Content
 1. [General Questions](#general-interview-questions)
