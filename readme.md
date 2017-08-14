@@ -28,3 +28,5 @@ The following list include a basic theoretical and code questions.
 ## Javascript Coding Questions
 * Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()` - [answer](https://jsfiddle.net/thisman/6ynaf3ot/)
 
+## Questions about your own projects
+* Be prepared and keep in mind lean yet striking presentation of your most remarkable projects. Don't have any? Go and complete some before the interview! It must demonstrate your proffesional level (if you're a proffessional already) or at least commitment and ability to work on your own for newcomers.
