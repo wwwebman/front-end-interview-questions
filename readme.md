@@ -3,7 +3,8 @@ This information is intended for the potential Front End Developer candidates.
 The following list include a basic theoretical and code questions. 
 
 ## List of Content
-1. [General Questions](#general-interview-questions)
+1. [Common interview questions](#common-interview-questions)
+1. [Common technical interview questions](#common-technical-interview-questions)
 1. [HTML](#html-interview-questions)
 1. [CSS](#css-interview-questions)
 1. [Javascript](#javascript-interview-questions)
