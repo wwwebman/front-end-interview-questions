@@ -13,15 +13,16 @@ The following list include a basic theoretical and code questions.
 1. What was the most interesting solution did you implemented at last project? 
 
 ## Common technical interview questions
-1. What is REST? - [answer](http://searchmicroservices.techtarget.com/definition/REST-representational-state-transfer)
+1. What is [REST](http://www.restapitutorial.com/)? - [more](http://restcookbook.com/)
 1. What is the difference between PUT and PATCH methods in REST? - [answer](https://stackoverflow.com/questions/21660791/what-is-the-main-difference-between-patch-and-put-request)
-1. What is CORS? - [answer](https://www.maxcdn.com/one/visual-glossary/cors/), [MDN answer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+1. What is CORS? - [answer](https://www.maxcdn.com/one/visual-glossary/cors/), [answer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 1. What the main things you can do to increase page speed loading? - [answer](https://www.crazyegg.com/blog/speed-up-your-website/)
 
 ## HTML Interview Questions
 
 ## CSS Interview Questions
 1. What different between mobile first and mobile last?
+1. Which of [those](https://jsfiddle.net/thisman/9o8s2bdk/) selectors has the highest specificity. What color will be applied to the paragraph?
 
 ## Javascript Interview Questions
 1. What is the JavaScript Event Loop? - [answer](http://altitudelabs.com/blog/what-is-the-javascript-event-loop/), [Philip Roberts answer](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=1244s)
