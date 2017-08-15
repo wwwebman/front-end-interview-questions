@@ -2,7 +2,7 @@
 This information is intended for the potential Front End Developer candidates.
 The following list include a basic theoretical and code questions.
 
-Dude or pretty lady, I hope that my experience and experience of other  developers will help you get the best interview result.
+Dude or pretty lady, I hope that my experience and experience of other developers will help you get the best interview result.
 
 ## List of Content
 1. [Common interview questions](#common-interview-questions)
@@ -15,10 +15,10 @@ Dude or pretty lady, I hope that my experience and experience of other  develope
 1. [Funny Questions](#funny-questions)
 
 ## Common interview questions
-1. What was the most interesting solution did you implemented at last project? 
+1. What was the most interesting solution did you implemented at the last project? 
 1. What is the last book you read?
 1. How big your team ever was?
-1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban)) environments? Talk more about..
+1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. What developers of Front End community do you know?
 1. What is 'Gangs of four'?
 
@@ -28,16 +28,15 @@ Dude or pretty lady, I hope that my experience and experience of other  develope
 1. Tell about the differences between [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), long polling and [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events). - [answer](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
 1. What is CORS? - [answer](https://www.maxcdn.com/one/visual-glossary/cors/), [answer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 1. What is the main things you can do to increase page speed loading? - [answer](https://www.crazyegg.com/blog/speed-up-your-website/)
-1. Progressive enhancement vs graceful degradation. What is the difference?
-1. What is [`Window.postMessage()`](https://davidwalsh.name/window-postmessage) and where it can be used? - [answer](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
+1. Progressive enhancement vs graceful degradation. What is the difference? - [answer](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
 1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.github.io/) or Browserify in your projects?
 
 ## HTML Interview Questions
-1. Could you list main HTML5 tags?
+1. Could you list main HTML5 tags? - [answer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 1. What does mean optional closing tag? - [answer](https://www.w3.org/TR/REC-html40/index/elements.html) 
 
 ## CSS Interview Questions
-1. What is different between mobile first and mobile last?
+1. What is different between mobile first and desktop first - [answer](https://codemyviews.com/blog/mobilefirst )?
 1. Which of [those](https://jsfiddle.net/thisman/9o8s2bdk/) selectors has the highest specificity. What color will be applied to the paragraph?
 1. What pseudo-class `:root` refer to?
 1. What preprocessor do you use ([Sass](http://sass-lang.com/), [Less](http://lesscss.org/))?
@@ -48,6 +47,7 @@ Dude or pretty lady, I hope that my experience and experience of other  develope
 1. What is the Event Delegation? - [answer](https://davidwalsh.name/event-delegate), [example](https://jsfiddle.net/thisman/h2eqfsx6/)
 1. What is the difference between e.target and e.currentTarget? - [answer](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget), [example](https://jsfiddle.net/thisman/gkdeocd6/)
 1. What patterns do you know and successfully use in JavaScript?
+1. What is [`Window.postMessage()`](https://davidwalsh.name/window-postmessage) and where it can be used? - [answer](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
 
 ## Javascript Coding Questions
 * Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [answer](https://jsfiddle.net/thisman/6ynaf3ot/)
@@ -56,7 +56,7 @@ Dude or pretty lady, I hope that my experience and experience of other  develope
 ```js
 10 .toString();
 (10).toString();
-10.toString();
+10..toString();
 ```
 * What is the order of alerts?
 ```js
@@ -70,7 +70,7 @@ setTimeout(function(){
 
 alert('banana');
 ```
-* Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function any without [side effect](https://stackoverflow.com/a/8129277/5513804). `alert(factorial(3) === 6 && factorial(0) === 1)` must return true. - [answer](https://jsfiddle.net/thisman/8v0h5oLq/)
+* Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function without [side effect](https://stackoverflow.com/a/8129277/5513804). `alert(factorial(3) === 6 && factorial(0) === 1)` must return true. - [answer](https://jsfiddle.net/thisman/8v0h5oLq/)
 * What is the result after code execution: 1, 2 or 3?
 ```js
     var x = 1;
