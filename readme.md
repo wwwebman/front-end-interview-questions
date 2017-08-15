@@ -2,6 +2,8 @@
 This information is intended for the potential Front End Developer candidates.
 The following list include a basic theoretical and code questions.
 
+Dude or pretty lady, I hope that my experience and experience of other  developers will help you get the best interview result.
+
 ## List of Content
 1. [Common interview questions](#common-interview-questions)
 1. [Common technical interview questions](#common-technical-interview-questions)
@@ -31,7 +33,8 @@ The following list include a basic theoretical and code questions.
 1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.github.io/) or Browserify in your projects?
 
 ## HTML Interview Questions
-1. Could you list main HTML5 tags? 
+1. Could you list main HTML5 tags?
+1. What does mean optional closing tag? - [answer](https://www.w3.org/TR/REC-html40/index/elements.html) 
 
 ## CSS Interview Questions
 1. What is different between mobile first and mobile last?
