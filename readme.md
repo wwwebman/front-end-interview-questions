@@ -28,6 +28,7 @@ The following list include a basic theoretical and code questions.
 1. What is the main things you can do to increase page speed loading? - [answer](https://www.crazyegg.com/blog/speed-up-your-website/)
 1. Progressive enhancement vs graceful degradation. What is the difference?
 1. What is [`Window.postMessage()`](https://davidwalsh.name/window-postmessage) and where it can be used? - [answer](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
+1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.github.io/) or Browserify in your projects?
 
 ## HTML Interview Questions
 1. Could you list main HTML5 tags? 
@@ -36,6 +37,7 @@ The following list include a basic theoretical and code questions.
 1. What is different between mobile first and mobile last?
 1. Which of [those](https://jsfiddle.net/thisman/9o8s2bdk/) selectors has the highest specificity. What color will be applied to the paragraph?
 1. What pseudo-class `:root` refer to?
+1. What preprocessor do you use ([Sass](http://sass-lang.com/), [Less](http://lesscss.org/))?
 
 ## Javascript Interview Questions
 1. Who is the author of JavaScript Language? - 
@@ -46,6 +48,7 @@ The following list include a basic theoretical and code questions.
 
 ## Javascript Coding Questions
 * Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [answer](https://jsfiddle.net/thisman/6ynaf3ot/)
+* write a [currying function](https://medium.com/@adambene/currying-in-javascript-es6-540d2ad09400) that return sum of two numbers.
 * Which line of the below code will be executed with an error. Why?
 ```js
 10 .toString();
@@ -65,6 +68,26 @@ setTimeout(function(){
 alert('banana');
 ```
 * Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function any without [side effect](https://stackoverflow.com/a/8129277/5513804). `alert(factorial(3) === 6 && factorial(0) === 1)` must return true. - [answer](https://jsfiddle.net/thisman/8v0h5oLq/)
+* What is the result after code execution: 1, 2 or 3?
+```js
+    var x = 1;
+    
+    var foo = {
+      x:2,
+      bar: function() {
+        x = 3;
+        return this.x;
+      }
+    }
+    
+    var run = foo.bar;
+    alert(run);
+```
+
+* What below code return: true or false. What does each part of code return? 
+```js
+    new String('a') instanceof String && 'b' instanceof String;
+```
 
 ## React interview questions
 1. What happens when you execute `setState()` in the `render()` method?
@@ -76,4 +99,4 @@ alert('banana');
 
 ## Funny Questions
 1. Do you like parties?
-2. Do you know that we have a dress code? (as joke)
+2. Do you know that we have a dress code? (asked as a joke)
