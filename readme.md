@@ -30,10 +30,13 @@ Dude or pretty lady, I hope that my experience and experience of other developer
 1. What is the main things you can do to increase page speed loading? - [answer](https://www.crazyegg.com/blog/speed-up-your-website/)
 1. Progressive enhancement vs graceful degradation. What is the difference? - [answer](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
 1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.github.io/) or Browserify in your projects?
+1. What do you know about "60fps"? What way to achieve this? - [answer](https://github.com/vasanthk/browser-rendering-optimization)
+1. What is the difference between layout, painting and compositing? - [answer](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 
 ## HTML Interview Questions
 1. Could you list main HTML5 tags? - [answer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 1. What does mean optional closing tag? - [answer](https://www.w3.org/TR/REC-html40/index/elements.html) 
+1. When and how to preload resources? - [answer](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
 ## CSS Interview Questions
 1. What is different between mobile first and desktop first - [answer](https://codemyviews.com/blog/mobilefirst )?
@@ -52,6 +55,11 @@ Dude or pretty lady, I hope that my experience and experience of other developer
 ## Javascript Coding Questions
 * Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [answer](https://jsfiddle.net/thisman/6ynaf3ot/)
 * write a [currying function](https://medium.com/@adambene/currying-in-javascript-es6-540d2ad09400) that return sum of two numbers.
+* Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function without [side effect](https://stackoverflow.com/a/8129277/5513804). [answer](https://jsfiddle.net/thisman/8v0h5oLq/)
+```js
+// Code below must return true
+alert(factorial(3) === 6 && factorial(0) === 1);
+```
 * Which line of the below code will be executed with an error. Why?
 ```js
 10 .toString();
@@ -70,26 +78,24 @@ setTimeout(function(){
 
 alert('banana');
 ```
-* Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function without [side effect](https://stackoverflow.com/a/8129277/5513804). `alert(factorial(3) === 6 && factorial(0) === 1)` must return true. - [answer](https://jsfiddle.net/thisman/8v0h5oLq/)
 * What is the result after code execution: 1, 2 or 3?
 ```js
-    var x = 1;
-    
-    var foo = {
-      x:2,
-      bar: function() {
-        x = 3;
-        return this.x;
-      }
-    }
-    
-    var run = foo.bar;
-    alert(run);
+var x = 1;
+var foo = {
+  x:2,
+  bar: function() {
+    x = 3;
+    return this.x;
+  }
+}
+var run = foo.bar;
+
+alert(run);
 ```
 
-* What below code return: true or false. What does each part of code return? 
+* What below code will return: true or false. What does each part of code return? 
 ```js
-    new String('a') instanceof String && 'b' instanceof String;
+new String('a') instanceof String && 'b' instanceof String;
 ```
 
 ## React interview questions
@@ -97,7 +103,7 @@ alert('banana');
 1. What is the difference between 'smart and dummy' components?
 1. How to create higher order component?
 1. Tell about React in the SEO context.
-1. Why attaching React components to the custom '<div id="app">' it's a good practice than simple to the `<body>`?
+1. Why rendering of React Components in the custom `<div id="app">` is good practice than simple to the `<body>`?
 1. What does mean "Isomorphic React Application"? - [answer](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
 
 ## Funny Questions
