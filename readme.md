@@ -13,6 +13,7 @@ I hope, that my experience and experience of other developers will help you to g
 1. [Javascript Coding](#javascript-coding-questions)
 1. [React interview questions](#react-interview-questions)
 1. [Funny Questions](#funny-questions)
+1. [Contributing](#contributing)
 
 ## Common interview questions
 1. What was the most interesting solution did you implemented at the last project? 
@@ -109,3 +110,8 @@ new String('a') instanceof String && 'b' instanceof String;
 ## Funny Questions
 1. Do you like parties?
 2. Do you know that we have a dress code? (asked as a joke)
+
+## Contributing
+Contributions, questions and comments, pull requests are all welcome.
+**Note**: if you want to change a structure, please open an issue and we will discuss it, but if you have interesting questions or answers, please make pull request.
+
