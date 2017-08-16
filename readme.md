@@ -2,7 +2,7 @@
 This information is intended for the potential Front End Developer candidates.
 The following list include a basic theoretical and code questions.
 
-I hope that my experience and experience of other developers will help you to get the best interview result.
+I hope, that my experience and experience of other developers will help you to get the best interview results.
 
 ## List of Content
 1. [Common interview questions](#common-interview-questions)
