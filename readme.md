@@ -1,4 +1,6 @@
-# Front-End Interview Questions and Answers
+![github front end develeper interview questions and answers teaser](https://webman.pro/assets/img/main/webman-front-end-interview-questions-answers-github.jpg)
+
+# Front End Interview Questions and Answers
 This information is intended for the potential Front End Developer candidates.
 The following list include a basic theoretical and code questions.
 
