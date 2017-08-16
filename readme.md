@@ -2,7 +2,7 @@
 This information is intended for the potential Front End Developer candidates.
 The following list include a basic theoretical and code questions.
 
-Dude or pretty lady, I hope that my experience and experience of other developers will help you get the best interview result.
+I hope that my experience and experience of other developers will help you to get the best interview result.
 
 ## List of Content
 1. [Common interview questions](#common-interview-questions)
@@ -45,7 +45,7 @@ Dude or pretty lady, I hope that my experience and experience of other developer
 1. What preprocessor do you use ([Sass](http://sass-lang.com/), [Less](http://lesscss.org/))?
 
 ## Javascript Interview Questions
-1. Who is the author of JavaScript Language? - 
+1. Who is the author of JavaScript Language? - [article](https://auth0.com/blog/a-brief-history-of-javascript/)
 1. What is the JavaScript Event Loop? - [answer](http://altitudelabs.com/blog/what-is-the-javascript-event-loop/), [Philip Roberts answer](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=1244s)
 1. What is the Event Delegation? - [answer](https://davidwalsh.name/event-delegate), [example](https://jsfiddle.net/thisman/h2eqfsx6/)
 1. What is the difference between e.target and e.currentTarget? - [answer](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget), [example](https://jsfiddle.net/thisman/gkdeocd6/)
