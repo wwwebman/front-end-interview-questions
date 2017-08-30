@@ -23,39 +23,40 @@ Dude or pretty lady, I hope that my experience and experience of other developer
 1. What is 'Gangs of four'?
 
 ## Common technical interview questions
-1. What is [REST](http://www.restapitutorial.com/)? - [restcookbook](http://restcookbook.com/)
-1. What is the difference between PUT and PATCH methods in REST? - [answer](https://stackoverflow.com/questions/21660791/what-is-the-main-difference-between-patch-and-put-request)
-1. Tell about the differences between [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), long polling and [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events). - [answer](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
-1. What is CORS? - [answer](https://www.maxcdn.com/one/visual-glossary/cors/), [answer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
-1. What is the main things you can do to increase page speed loading? - [answer](https://www.crazyegg.com/blog/speed-up-your-website/)
-1. Progressive enhancement vs graceful degradation. What is the difference? - [answer](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
+1. What is [REST](http://www.restapitutorial.com/)? - [@library--restcookbook](http://restcookbook.com/)
+1. What is the difference between PUT and PATCH methods in REST? - [@answer--stackoverflow](https://stackoverflow.com/questions/21660791/what-is-the-main-difference-between-patch-and-put-request)
+1. Tell about the differences between [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), long polling and [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events). - [@answer--stackoverflow](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
+1. What is CORS? - [@answer--maxcdn.com](https://www.maxcdn.com/one/visual-glossary/cors/), [@answer--mdn](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+1. What is the main things you can do to increase page speed loading? - [@answer--crazyegg.com](https://www.crazyegg.com/blog/speed-up-your-website/)
+1. Progressive enhancement vs graceful degradation. What is the difference? - [@answer--w3](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
 1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.github.io/) or Browserify in your projects?
-1. What do you know about "60fps"? What way to achieve this? - [answer](https://github.com/vasanthk/browser-rendering-optimization)
-1. What is the difference between layout, painting and compositing? - [answer](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
+1. What do you know about "60fps"? What way to achieve this? - [@answer--github](https://github.com/vasanthk/browser-rendering-optimization)
+1. What is the difference between layout, painting and compositing? - [@answer--google](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 
 ## HTML Interview Questions
-1. Could you list main HTML5 tags? - [answer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-1. What does mean optional closing tag? - [answer](https://www.w3.org/TR/REC-html40/index/elements.html) 
-1. When and how to preload resources? - [answer](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+1. Could you list main HTML5 tags? - [@answer--mdn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+1. What does mean optional closing tag? - [@answer--w3](https://www.w3.org/TR/REC-html40/index/elements.html) 
+1. When and how to preload resources? - [@answer--medium](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
 ## CSS Interview Questions
-1. What is different between mobile first and desktop first - [answer](https://codemyviews.com/blog/mobilefirst )?
+1. What is different between mobile first and desktop first - [@answer--codemyviews.com](https://codemyviews.com/blog/mobilefirst )?
 1. Which of [those](https://jsfiddle.net/thisman/9o8s2bdk/) selectors has the highest specificity. What color will be applied to the paragraph?
 1. What pseudo-class `:root` refer to?
 1. What preprocessor do you use ([Sass](http://sass-lang.com/), [Less](http://lesscss.org/))?
 
 ## Javascript Interview Questions
 1. Who is the author of JavaScript Language? - 
-1. What is the JavaScript Event Loop? - [answer](http://altitudelabs.com/blog/what-is-the-javascript-event-loop/), [Philip Roberts answer](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=1244s)
-1. What is the Event Delegation? - [answer](https://davidwalsh.name/event-delegate), [example](https://jsfiddle.net/thisman/h2eqfsx6/)
-1. What is the difference between e.target and e.currentTarget? - [answer](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget), [example](https://jsfiddle.net/thisman/gkdeocd6/)
+1. What is the JavaScript Event Loop? - [@answer--](http://altitudelabs.com/blog/what-is-the-javascript-event-loop/), [Philip Roberts answer](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=1244s)
+1. What is the Event Delegation? - [@answer--](https://davidwalsh.name/event-delegate), [example](https://jsfiddle.net/thisman/h2eqfsx6/)
+1. What is the difference between e.target and e.currentTarget? - [@answer--](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget), [example](https://jsfiddle.net/thisman/gkdeocd6/)
 1. What patterns do you know and successfully use in JavaScript?
-1. What is [`Window.postMessage()`](https://davidwalsh.name/window-postmessage) and where it can be used? - [answer](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
+1. What is [`Window.postMessage()`](https://davidwalsh.name/window-postmessage) and where it can be used? - [@answer--](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
+1. Is there any difference between Promises and callbacks? Which is better? - [callbackhell.com](http://callbackhell.com/),  
 
 ## Javascript Coding Questions
-* Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [answer](https://jsfiddle.net/thisman/6ynaf3ot/)
+* Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [@answer--](https://jsfiddle.net/thisman/6ynaf3ot/)
 * write a [currying function](https://medium.com/@adambene/currying-in-javascript-es6-540d2ad09400) that return sum of two numbers.
-* Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function without [side effect](https://stackoverflow.com/a/8129277/5513804). [answer](https://jsfiddle.net/thisman/8v0h5oLq/)
+* Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function without [side effect](https://stackoverflow.com/a/8129277/5513804). [@answer--](https://jsfiddle.net/thisman/8v0h5oLq/)
 ```js
 // Code below must return true
 alert(factorial(3) === 6 && factorial(0) === 1);
@@ -90,7 +91,7 @@ var foo = {
 }
 var run = foo.bar;
 
-alert(run);
+alert(run());
 ```
 
 * What below code will return: true or false. What does each part of code return? 
@@ -104,8 +105,16 @@ new String('a') instanceof String && 'b' instanceof String;
 1. How to create higher order component?
 1. Tell about React in the SEO context.
 1. Why rendering of React Components in the custom `<div id="app">` is good practice than simple to the `<body>`?
-1. What does mean "Isomorphic React Application"? - [answer](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
+1. What does mean "Isomorphic React Application"? - [@answer--](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
 
 ## Funny Questions
 1. Do you like parties?
 2. Do you know that we have a dress code? (asked as a joke)
+
+
+#### Answers classification
+@answer-[tag]--[source tag] - General Theoretical Answer  
+@library-[tag]--[source tag] - More Complex Answer  
+@code-[tag]--[source tag] - Code Example  
+@practice-[tag]--[source tag] - Good Practices  
+@video-[tag]--[source tag] - Video Materials
