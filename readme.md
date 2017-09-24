@@ -138,7 +138,10 @@ new String('a') instanceof String && 'b' instanceof String;
 
 ### Contributing
 Contributions, questions and comments, pull requests are all welcome.  
-**Note**: if you want to change the structure, please open an issue and we will discuss it, but if you have interesting questions or answers, please make pull request.
+**Note**: if you want to change the structure, please open an issue and we will discuss it, but if you have interesting questions or answers, please make pull request.  
+
+Thanks to all these cool people:  
+[Ken Hawkins](https://github.com/khawkins98)
 
 #### Answers classification
  **@answer-[tag]--[source tag]** - General Theoretical Answer.   
