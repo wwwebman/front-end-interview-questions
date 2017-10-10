@@ -124,6 +124,27 @@ alert(run());
 new String('a') instanceof String && 'b' instanceof String;
 ```
 
+* Does `a({}, 'val')` & `b({}, 'val')` will return the same?
+```js
+var a = function(obj, val) {
+    obj.val = {
+        a: 1,
+        b: 2,
+    }
+
+    return obj;
+}
+
+
+var b = function(obj, val) {
+    return obj.val = {
+        a: 1,
+        b: 2,
+    }    
+}
+```
+
+
 ## React interview questions
 1. What happens when you execute `setState()` in the `render()` method?
 1. What is the difference between 'smart and dummy' components?
