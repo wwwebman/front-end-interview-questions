@@ -17,10 +17,11 @@ I hope my experience and the experiences of other developers will help you get b
     * [Senior candidate](#senior-candidate)
 1. [Javascript Coding](#javascript-coding-questions)
 1. [React interview questions](#react-interview-questions)
+1. [GIT Questions](#git)
 1. [Funny Questions](#funny-questions)
 1. [Contributing](#contributing)
     * [Answers classification](#answers-classification)
-
+    
 ## Common interview questions
 1. What was the most interesting solution you implemented during your last project? 
 1. What is the last book you read?
@@ -144,7 +145,6 @@ var b = function(obj, val) {
 }
 ```
 
-
 ## React interview questions
 1. What happens when you execute `setState()` in the `render()` method?
 1. What is the difference between 'smart and dummy' components?
@@ -152,6 +152,10 @@ var b = function(obj, val) {
 1. Tell about React in the SEO context.
 1. Why rendering of React Components in the custom `<div id="app">` is good practice than simple to the `<body>`?
 1. What does mean "Isomorphic React Application"? - [@answer--smashingmagazine](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
+1. What is the difference between Mobx & Redux? - [@answer](https://www.robinwieruch.de/redux-mobx-confusion/)
+
+## GIT
+1. What is the main difference between `merge` and `rebase`? - [@answer](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ## Funny Questions
 1. Do you like parties?
