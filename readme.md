@@ -18,6 +18,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. [Javascript Coding](#javascript-coding-questions)
 1. [React interview questions](#react-interview-questions)
 1. [GIT Questions](#git)
+1. [Testing Questions](#testing-questions)
 1. [Funny Questions](#funny-questions)
 1. [Contributing](#contributing)
     * [Answers classification](#answers-classification)
@@ -31,7 +32,6 @@ I hope my experience and the experiences of other developers will help you get b
 1. What have you heard about the 'Gangs of four'?
 1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
 1. What are the most common types of web attacks? - [@answer--blog.sucuri.net](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
-1. What is 'duck typing'? - [@answer--wikipedia](https://en.wikipedia.org/wiki/Duck_typing)
 
 ## Common technical interview questions
 1. What is [REST](http://www.restapitutorial.com/)? - [@library--restcookbook](http://restcookbook.com/)
@@ -40,7 +40,8 @@ I hope my experience and the experiences of other developers will help you get b
 1. What is CORS? - [@answer--maxcdn.com](https://www.maxcdn.com/one/visual-glossary/cors/), [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 1. List the main things you can do to increase page speed loading? - [@answer--crazyegg.com](https://www.crazyegg.com/blog/speed-up-your-website/)
 1. Progressive enhancement vs graceful degradation. What is the difference? - [@answer--w3](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
-1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.github.io/) or Browserify in your projects?
+1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.
+ quehub.io/) or Browserify in your projects?
 1. What do you know about "60fps"? How can you achieve it? - [@answer--github](https://github.com/vasanthk/browser-rendering-optimization)
 1. What is the difference between layout, painting and compositing? - [@answer--google](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 
@@ -156,6 +157,12 @@ var b = function(obj, val) {
 
 ## GIT
 1. What is the main difference between `merge` and `rebase`? - [@answer](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+## Testing Questions
+1. Tell about TDD. What advantages or disadvantages of this concept you know? [@answer--wiki](https://en.wikipedia.org/wiki/Test-driven_development)
+1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
+1. Which frameworks/platforms do you use for test you code?
+1. List unit testing best practices principles. [@answer-slides](https://www.slideshare.net/homespothq/unit-testing-concepts-and-best-practices)
 
 ## Funny Questions
 1. Do you like parties?
