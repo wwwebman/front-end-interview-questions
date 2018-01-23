@@ -30,8 +30,8 @@ I hope my experience and the experiences of other developers will help you get b
 1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. Which developers do you know in the Front End community?
 1. What have you heard about the 'Gangs of four'?
-1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
 1. What are the most common types of web attacks? - [@answer--blog.sucuri.net](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
+1. What is the difference between imperative and declarative programming in JS? - [@answer--redotheweb.com](http://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
 
 ## Common technical interview questions
 1. What is [REST](http://www.restapitutorial.com/)? - [@library--restcookbook](http://restcookbook.com/)
@@ -159,6 +159,7 @@ var b = function(obj, val) {
 1. What is the main difference between `merge` and `rebase`? - [@answer](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ## Testing Questions
+1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
 1. Tell about TDD. What advantages or disadvantages of this concept you know? [@answer--wiki](https://en.wikipedia.org/wiki/Test-driven_development)
 1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
 1. Which frameworks/platforms do you use for test you code?
