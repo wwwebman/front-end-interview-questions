@@ -29,7 +29,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. How big was your team?
 1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. Which developers do you know in the Front End community?
-1. How do you develop yourself?
+1. How do you do to improve programming skills?
 1. What have you heard about the 'Gangs of four'?
 1. What are the most common types of web attacks? - [@answer--blog.sucuri.net](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
 1. What is the difference between imperative and declarative programming in JS? - [@answer--redotheweb.com](http://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
@@ -84,7 +84,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. What patterns do you know and successfully use in JavaScript?
 1. What is the difference between Deferred and Promise objects? Where is Deferred object used?
 1. What is the problem throttling and debouncing are resolved? What is the core difference between them? - [@answer--medium](https://medium.com/@_jh3y/throttling-and-debouncing-in-javascript-b01cad5c8edf)
-1. What is SOLID? Using some example talk about 
+1. What is SOLID? [@answer-wiki](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) 
 
 ## Javascript Coding Questions
 * Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [@code-answer](https://jsfiddle.net/thisman/6ynaf3ot/)
