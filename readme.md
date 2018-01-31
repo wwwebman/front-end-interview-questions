@@ -29,6 +29,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. How big was your team?
 1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. Which developers do you know in the Front End community?
+1. How do you develop yourself?
 1. What have you heard about the 'Gangs of four'?
 1. What are the most common types of web attacks? - [@answer--blog.sucuri.net](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
 1. What is the difference between imperative and declarative programming in JS? - [@answer--redotheweb.com](http://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
@@ -44,12 +45,13 @@ I hope my experience and the experiences of other developers will help you get b
  quehub.io/) or Browserify in your projects?
 1. What do you know about "60fps"? How can you achieve it? - [@answer--github](https://github.com/vasanthk/browser-rendering-optimization)
 1. What is the difference between layout, painting and compositing? - [@answer--google](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
+1. What is Web Components? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 
 ## HTML Interview Questions
 1. Could you list major HTML5 tags? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 1. What does an 'optional' closing tag mean? - [@doc--w3](https://www.w3.org/TR/REC-html40/index/elements.html) 
 1. When and how to preload resources? - [@answer--medium](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
-1. What is the difference between id and class?
+1. What is the difference between id and class? - [@answer--css-tricks](https://css-tricks.com/the-difference-between-id-and-class/)
 
 ## CSS Interview Questions
 1. What is the difference between 'mobile first' and 'desktop first' - [@answer--codemyviews.com](https://codemyviews.com/blog/mobilefirst )?
@@ -65,6 +67,8 @@ I hope my experience and the experiences of other developers will help you get b
 1. What is the type of NaN? How to check if a value is NaN?
 1. What the reason that `window.window === window` return true? - [@doc--mdn](https://developer.mozilla.org/pl/docs/Web/API/Window/window)
 1. What is the outcome of the JavaScript calculation? `1/0 = ?`
+1. What is hoisting? [@doc--mdn](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+1. What is the difference between bubbling and capturing? - [@answer--stackoverflow](https://stackoverflow.com/a/4616720/5513804)
 
 #### Middle candidate
 1. What does `this` refer to? - [@answer--javascriptissexy](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
@@ -74,11 +78,13 @@ I hope my experience and the experiences of other developers will help you get b
 1. What is [`Window.postMessage()`](https://davidwalsh.name/window-postmessage) and where it can be used? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
 1. Is there any difference between Promises and callbacks? Which is better? - [@answer-callback--callbackhell.com](http://callbackhell.com/),  
 1. What is recursion? When is the use of recursion useful in Javascript? - [@answer--medium](https://medium.com/@dis_is_patrick/practical-uses-for-recursive-javascript-b8f142552f8b)
+1. What do you hear about DRY, KISS, YAGNI? - [@answer-thefullstack.xyz](https://thefullstack.xyz/dry-yagni-kiss-tdd-soc-bdfu)
 
 #### Senior candidate
 1. What patterns do you know and successfully use in JavaScript?
 1. What is the difference between Deferred and Promise objects? Where is Deferred object used?
 1. What is the problem throttling and debouncing are resolved? What is the core difference between them? - [@answer--medium](https://medium.com/@_jh3y/throttling-and-debouncing-in-javascript-b01cad5c8edf)
+1. What is SOLID? Using some example talk about 
 
 ## Javascript Coding Questions
 * Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [@code-answer](https://jsfiddle.net/thisman/6ynaf3ot/)
@@ -137,13 +143,20 @@ var a = function(obj, val) {
     return obj;
 }
 
-
 var b = function(obj, val) {
     return obj.val = {
         a: 1,
         b: 2,
     }    
 }
+```
+* What would be the output of this code below?
+```js
+   (function () {
+      console.log(a, b);
+      var a = 1;
+      const b = 2;
+   }())
 ```
 
 ## React interview questions
