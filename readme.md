@@ -29,7 +29,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. How big was your team?
 1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. Which developers do you know in the Front End community?
-1. How do you do to improve programming skills?
+1. What do you do to improve programming skills?
 1. What have you heard about the 'Gangs of four'?
 1. What are the most common types of web attacks? - [@answer--blog.sucuri.net](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
 1. What is the difference between imperative and declarative programming in JS? - [@answer--redotheweb.com](http://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
@@ -46,6 +46,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. What do you know about "60fps"? How can you achieve it? - [@answer--github](https://github.com/vasanthk/browser-rendering-optimization)
 1. What is the difference between layout, painting and compositing? - [@answer--google](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 1. What is Web Components? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+1. What is the difference between sessioStorage, localStorage and cookies?  [@answer--stackoverflow](https://stackoverflow.com/a/19869560/5513804)
 
 ## HTML Interview Questions
 1. Could you list major HTML5 tags? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
