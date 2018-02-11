@@ -1,6 +1,6 @@
 # Front End Interview Questions and Answers :dolphin:
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#contributing)
-[![GitHub contributors](https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg)](#contributing)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wwwebman/front-end-interview-questions/blob/master/CONTRIBUTING.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg)](https://github.com/wwwebman/front-end-interview-questions/blob/master/CONTRIBUTING.md)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Gitter](https://img.shields.io/gitter/room/tj/git-extras.svg)](https://gitter.im/front-end-interview-questions-answers/Lobby)
 
@@ -25,8 +25,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. [GIT Questions](#git)
 1. [Testing Questions](#testing-questions)
 1. [Funny Questions](#funny-questions)
-1. [Contributing](#contributing)
-    * [Answers classification](#answers-classification)
+1. [Contributing](https://github.com/wwwebman/front-end-interview-questions/blob/master/CONTRIBUTING.md)
     
 ## Common interview questions
 1. What was the most interesting solution you implemented during your last project? 
@@ -187,18 +186,3 @@ var b = function(obj, val) {
 ## Funny Questions
 1. Do you like parties?
 2. Do you know that we have a dress code?
-
-### Contributing
-Contributions, questions and comments, pull requests are all welcome.  
-**Note**: if you want to change the structure, please open an issue and we will discuss it, but if you have interesting questions or answers, please make pull request.  
-
-Thanks to all these cool people :hand::  
-[Ken Hawkins](https://github.com/khawkins98)
-
-#### Answers classification
- **@answer-[tag]--[source tag]** - General Theoretical Answer.   
- **@doc-[tag]--[source tag]** - Documentation  
- **@library-[tag]--[source tag]** - More Complex Answer  
- **@code-[tag]** - Code Example from jsfiddle || codepen || jsbin  
- **@practice-[tag]--[source tag]** - Good Practices  
- **@video-[tag]--[source tag]** - Video Materials
