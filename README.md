@@ -1,6 +1,6 @@
 # Front End Interview Questions and Answers :dolphin:
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#contributing)
-[![GitHub contributors](https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions-answers.svg)](#contributing)
+[![GitHub contributors](https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg)](#contributing)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Gitter](https://img.shields.io/gitter/room/tj/git-extras.svg)](https://gitter.im/front-end-interview-questions-answers/Lobby)
 
