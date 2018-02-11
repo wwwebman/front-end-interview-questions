@@ -17,7 +17,7 @@ an interesting questions or answers, please make pull request.
   * Only target release branches if you are certain your fix must be on that
     branch.
   * To quickly create a topic branch based on master, run `git checkout -b
-    fix/my_awesome_fix`. Please avoid working directly on the
+    fix/my_awesome_change`. Please avoid working directly on the
     `master` branch.
 * Make commits of logical and atomic units. 
 * Check for unnecessary whitespace with `git diff --check` before committing.
@@ -27,6 +27,14 @@ an interesting questions or answers, please make pull request.
   * Capitalize the subject line.
 * Push chages
 * Create Pull Request
+
+## Make sure you added right answer tag
+ **@answer-[tag]--[source tag]** - General Theoretical Answer.   
+ **@doc-[tag]--[source tag]** - Documentation  
+ **@library-[tag]--[source tag]** - More Complex Answer  
+ **@code-[tag]** - Code Example from jsfiddle || codepen || jsbin  
+ **@practice-[tag]--[source tag]** - Good Practices  
+ **@video-[tag]--[source tag]** - Video Materials
 
 Thanks to all these cool people :hand::  
 [Ken Hawkins](https://github.com/khawkins98)
