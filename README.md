@@ -89,7 +89,8 @@ I hope my experience and the experiences of other developers will help you get b
 1. What patterns do you know and successfully use in JavaScript?
 1. What is the difference between Deferred and Promise objects? Where is Deferred object used?
 1. What is the problem throttling and debouncing are resolved? What is the core difference between them? - [@answer--medium](https://medium.com/@_jh3y/throttling-and-debouncing-in-javascript-b01cad5c8edf)
-1. What is SOLID? [@answer-wiki](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) 
+1. What is SOLID? [@answer-wiki](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+1. What is the difference between inheritance and composition? What do you prefer? Why? [@answer-hackernoon.com](https://hackernoon.com/javascript-functional-composition-for-every-day-use-22421ef65a10), [@answer--medium](https://medium.com/front-end-hacking/classless-javascript-composition-over-inheritance-6b27c35893b1)
 
 ## Javascript Coding Questions
 * Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [@code-answer](https://jsfiddle.net/thisman/6ynaf3ot/)
@@ -162,6 +163,28 @@ var b = function(obj, val) {
       var a = 1;
       const b = 2;
    }())
+```
+
+Which one of the function expression below would be the best choice for the `prototype-constructor` pattern (a, b, c)? Why?
+```js
+function Man (name) {
+	this.name = name;
+}
+
+// a
+Man.prototype.getName = function () {
+	return this.name;
+}
+
+// b
+Man.prototype.getName = function getName() {
+	return this.name;
+}
+
+// c
+Man.prototype.getName = () => {
+	return this.name;
+}
 ```
 
 ## React interview questions
