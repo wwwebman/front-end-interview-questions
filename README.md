@@ -45,8 +45,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. What is CORS? - [@answer--maxcdn.com](https://www.maxcdn.com/one/visual-glossary/cors/), [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 1. List the main things you can do to increase page speed loading? - [@answer--crazyegg.com](https://www.crazyegg.com/blog/speed-up-your-website/)
 1. Progressive enhancement vs graceful degradation. What is the difference? - [@answer--w3](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
-1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.
- quehub.io/) or Browserify in your projects?
+1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/) in your projects?
 1. What do you know about "60fps"? How can you achieve it? - [@answer--github](https://github.com/vasanthk/browser-rendering-optimization)
 1. What is the difference between layout, painting and compositing? - [@answer--google](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 1. What is Web Components? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
