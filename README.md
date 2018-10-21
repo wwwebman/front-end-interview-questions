@@ -14,17 +14,18 @@ I hope my experience and the experiences of other developers will help you get b
 ## List of Content
 1. [Common interview questions](#common-interview-questions)
 1. [Common technical interview questions](#common-technical-interview-questions)
-1. [HTML](#html-interview-questions)
-1. [CSS](#css-interview-questions)
-1. [Javascript](#javascript-interview-questions)
+1. [HTML interview questions](#html-interview-questions)
+1. [CSS interview questions](#css-interview-questions)
+1. [Javascript interview questions](#javascript-interview-questions)
     * [Junior candidate](#junior-candidate)
     * [Middle candidate](#middle-candidate)
     * [Senior candidate](#senior-candidate)
 1. [Javascript Coding](#javascript-coding-questions)
 1. [React interview questions](#react-interview-questions)
-1. [GIT Questions](#git)
-1. [Testing Questions](#testing-questions)
-1. [Funny Questions](#funny-questions)
+1. [Typescript interview questions](#typescript-interview-questions)
+1. [GIT interview questions](#git)
+1. [Testing interview questions](#testing-questions)
+1. [Funny questions](#funny-questions)
 1. [Contributing](https://github.com/wwwebman/front-end-interview-questions/blob/master/CONTRIBUTING.md)
     
 ## Common interview questions
@@ -194,6 +195,9 @@ Man.prototype.getName = () => {
 1. Why rendering of React Components in the custom `<div id="app">` is good practice than simple to the `<body>`?
 1. What does mean "Isomorphic React Application"? - [@answer--smashingmagazine](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
 1. What is the difference between Mobx & Redux? - [@answer](https://www.robinwieruch.de/redux-mobx-confusion/)
+
+## Typescript interview questions
+1. Talk about the differences between public, private, and protected class access modifiers? [@answer--typescriptlang.org](https://www.typescriptlang.org/docs/handbook/classes.html#public-private-and-protected-modifiers)
 
 ## GIT
 1. What is the main difference between `merge` and `rebase`? - [@answer](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
