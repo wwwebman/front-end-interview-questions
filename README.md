@@ -9,6 +9,8 @@ I hope my experience and the experiences of other developers will help you get b
 
 **P.S. My main goal is to help candidates (including myself) get more web knowledge. Let's improve the hard skills of the Front-End community together. Please send you Front-End interview questions via pull request.**
 
+![front end interview questions answers](banner.jpg)
+
 ## List of Content
 1. [Common interview questions](#common-interview-questions)
 1. [Common technical interview questions](#common-technical-interview-questions)
