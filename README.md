@@ -35,7 +35,6 @@ I hope my experience and the experiences of other developers will help you get b
 1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. Which developers do you know in the Front End community?
 1. What do you do to improve programming skills?
-1. What have you heard about the 'Gangs of four'?
 1. What are the most common types of web attacks? - [@answer--blog.sucuri.net](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
 1. What is the difference between imperative and declarative programming in JS? - [@answer--redotheweb.com](http://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
 
