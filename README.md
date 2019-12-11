@@ -210,4 +210,5 @@ Man.prototype.getName = () => {
 
 ## Funny Questions
 1. Do you like parties?
-2. Do you know that we have a dress code?
+1. Do you know that we have a dress code?
+1. Where do you see yourself in 5 years?
