@@ -205,7 +205,6 @@ Man.prototype.getName = () => {
 ## Testing Questions
 1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
 1. Tell about TDD. What advantages or disadvantages of this concept you know? [@answer--wiki](https://en.wikipedia.org/wiki/Test-driven_development)
-1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
 1. Which frameworks/platforms do you use for test you code?
 1. List unit testing best practices principles. [@answer-slides](https://www.slideshare.net/homespothq/unit-testing-concepts-and-best-practices)
 
