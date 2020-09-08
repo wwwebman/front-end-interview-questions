@@ -49,7 +49,7 @@ I hope my experience and the experiences of other developers will help you get b
 1. What do you know about "60fps"? How can you achieve it? - [@answer--github](https://github.com/vasanthk/browser-rendering-optimization)
 1. What is the difference between layout, painting and compositing? - [@answer--google](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 1. What is Web Components? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
-1. What is the difference between sessioStorage, localStorage and cookies?  [@answer--stackoverflow](https://stackoverflow.com/a/19869560/5513804)
+1. What is the difference between sessionStorage, localStorage and cookies?  [@answer--stackoverflow](https://stackoverflow.com/a/19869560/5513804)
 
 ## HTML Interview Questions
 1. Could you list major HTML5 tags? - [@doc--mdn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
