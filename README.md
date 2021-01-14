@@ -10,8 +10,6 @@
 The goal is to give a candidate the possibility to test his/her knowledge before a real-world interview.
 My experience and the experiences of other developers will help you get better interview results.
 
-Please send your Front-End interview questions (read the contributing [guide]('CONTRIBUTING.md')).
-
 ## List of Content
 
 1. [Common interview questions](#common-interview-questions)
@@ -25,6 +23,7 @@ Please send your Front-End interview questions (read the contributing [guide]('C
 1. [Testing Questions](#testing-questions)
 1. [GIT](#git)
 1. [Funny Questions](#funny-questions)
+1. [Contribution](#contribution)
 
 ## Common interview questions
 
@@ -273,3 +272,8 @@ Man.prototype.getName = () => {
 1. Do you like parties?
 1. Do you know that we have a dress code?
 1. Where do you see yourself in 5 years?
+
+## Contribution
+
+It would be cool to find your Front End interview question on our list. 
+Check out the contributing [guide](CONTRIBUTING.md)) to get started.
