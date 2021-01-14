@@ -1,14 +1,25 @@
-# Front End Interview Questions and Answers :dolphin:
-
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wwwebman/front-end-interview-questions/blob/master/CONTRIBUTING.md)
-[![GitHub contributors](https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg)](https://github.com/wwwebman/front-end-interview-questions/blob/master/CONTRIBUTING.md)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Gitter](https://img.shields.io/gitter/room/tj/git-extras.svg)](https://gitter.im/front-end-interview-questions-answers/Lobby)
-
-![front end interview questions answers](banner.jpg)
+<div align="center">
+  <a href="https://webman.pro">
+    <img src="https://raw.githubusercontent.com/wwwebman/wwwebman/master/wwwebman.svg" width="50px" alt="webman.pro">
+  </a>
+  <br />
+  <h1> Front End Interview Questions and Answers</h1>
+  <a href="CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions">
+  </a>
+  <a href="https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg" alt="Contributors" /></a>
+  <a href="https://github.com/wwwebman/gulp-webpack-starter/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License">
+  </a>
+</div>
 
 The goal is to give a candidate the possibility to test his/her knowledge before a real-world interview.
 My experience and the experiences of other developers will help you get better interview results.
+
+**Rock your interview! :rocket:**
+___
+
+<img src="banner.jpg" alt="Front End interview questions answers" width="50%" style="min-width:300px;" />
 
 ## List of Content
 
