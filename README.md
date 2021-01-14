@@ -7,11 +7,14 @@
   <a href="CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions">
   </a>
-  <a href="https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg" alt="Contributors" /></a>
+	<a href="https://github.com/wwwebman/gulp-webpack-starter/blob/master/CONTRIBUTING.md">
+    <img src="https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg" alt="Contributors">
+  </a>
   <a href="https://github.com/wwwebman/gulp-webpack-starter/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License">
   </a>
 </div>
+<br />
 
 The goal is to give a candidate the possibility to test his/her knowledge before a real-world interview.
 My experience and the experiences of other developers will help you get better interview results.
