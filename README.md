@@ -276,4 +276,4 @@ Man.prototype.getName = () => {
 ## Contribution
 
 It would be cool to find your Front End interview question on our list. 
-Check out the contributing [guide](CONTRIBUTING.md)) to get started.
+Check out the contributing [guide](CONTRIBUTING.md) to get started.
