@@ -89,35 +89,67 @@ I hope my experience and the experiences of other developers will help you get b
 1. What is the difference between Deferred and Promise objects? Where is Deferred object used?
 1. What is the problem throttling and debouncing are resolved? What is the core difference between them? - [@answer--medium](https://medium.com/@_jh3y/throttling-and-debouncing-in-javascript-b01cad5c8edf)
 1. What is SOLID? [@answer-wiki](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
-1. What is the difference between inheritance and composition? What do you prefer? Why? [@answer-hackernoon.com](https://hackernoon.com/javascript-functional-composition-for-every-day-use-22421ef65a10), [@answer--medium](https://medium.com/front-end-hacking/classless-javascript-composition-over-inheritance-6b27c35893b1)
+1. What is the difference between inheritance and composition? What do you prefer? Why? [@answer-hackernoon.com](https://hackernoon.com/javascript-functional-composition-for-every-day-use-22421ef65a10), [@medium](https://medium.com/front-end-hacking/classless-javascript-composition-over-inheritance-6b27c35893b1)
 
 ## Javascript Coding Questions
-* Write a `pipefy` function where a string received is returned, but with the `|` character between each character. Make it possible to execute function in this way: `'javascript'.pipefy()`. - [@code-answer](https://jsfiddle.net/thisman/6ynaf3ot/)
-* Write a [currying function](https://medium.com/@adambene/currying-in-javascript-es6-540d2ad09400) that return sum of two numbers.
-* Write a [factorial](https://www.mathsisfun.com/numbers/factorial.html) function without [side effect](https://stackoverflow.com/a/8129277/5513804). [@code](https://jsfiddle.net/thisman/8v0h5oLq/)
+<details>
+<summary>Write a `pipefy` function where a string received is returned, but with the `|` character between each character:</summary>
+
 ```js
-// Code below must return true
+pipefy();
+```
+
+[@code](https://jsfiddle.net/thisman/6ynaf3ot/)
+</details>
+<details>
+<summary>Write a currying function that returns a sum of two numbers:</summary>
+
+```js
+sum(1)(2);
+```
+
+[currying function](https://medium.com/@adambene/currying-in-javascript-es6-540d2ad09400),
+</details>
+<details>
+<summary>Write a factorialfunction without side effect:</summary>
+	
+```js
+// Code below must return `true`.
 alert(factorial(3) === 6 && factorial(0) === 1);
 ```
-* Which line of the below code will be executed with an error? Why?
+
+[factorial](https://www.mathsisfun.com/numbers/factorial.html),
+[side effect](https://stackoverflow.com/a/8129277/5513804),
+[@code](https://jsfiddle.net/thisman/8v0h5oLq/)
+</details>
+
+<details>
+<summary>Which line of the below code will be executed with an error? Why?</summary>
+	
 ```js
 10 .toString();
 (10).toString();
 10..toString();
 ```
-* What is the order of alerts?
+</details>
+<details>
+<summary>What is the order of alerts?</summary>
+
 ```js
 setTimeout(function(){
-    alert('gorilla');
-    setTimeout(function(){
-        alert('classical inheritance')
-    }, 0);
-    alert('drumroll');
+  alert('gorilla');
+  setTimeout(function(){
+      alert('classical inheritance')
+  }, 0);
+  alert('drumroll');
 }, 0);
 
 alert('banana');
 ```
-* What is the result after code execution: 1, 2 or 3?
+</details>
+<details>
+<summary>What is the result after code execution: 1, 2 or 3?</summary>
+
 ```js
 var x = 1;
 var foo = {
@@ -131,60 +163,69 @@ var run = foo.bar;
 
 alert(run());
 ```
-
-* What below code will return: true or false. What does each part of code return? 
+</details>
+<details>
+<summary>What below code will return: `true` or `false`. What does each part of code return?</summary>
+	
 ```js
 new String('a') instanceof String && 'b' instanceof String;
 ```
+</details>
+<details>
+<summary>Does `a({}, 'val')` & `b({}, 'val')` will return the same?</summary>
 
-* Does `a({}, 'val')` & `b({}, 'val')` will return the same?
 ```js
 var a = function(obj, val) {
-    obj.val = {
-        a: 1,
-        b: 2,
-    }
+  obj.val = {
+    a: 1,
+    b: 2,
+  }
 
-    return obj;
+  return obj;
 }
 
 var b = function(obj, val) {
-    return obj.val = {
-        a: 1,
-        b: 2,
-    }    
+  return obj.val = {
+    a: 1,
+    b: 2,
+  }    
 }
 ```
-* What would be the output of this code below?
-```js
-   (function () {
-      console.log(a, b);
-      var a = 1;
-      const b = 2;
-   }())
-```
+</details>
+<details>
+<summary>What would be the output of this code below?</summary>
 
-Which one of the function expression below would be the best choice for the `prototype-constructor` pattern (a, b, c)? Why?
+```js
+(function () {
+  console.log(a, b);
+  var a = 1;
+  const b = 2;
+}())
+```
+</details>
+
+</details>
+<details>
+<summary>Which one of the function expression below would be the best choice for the `prototype-constructor` pattern (a, b, c)? Why?</summary>
+
 ```js
 function Man (name) {
 	this.name = name;
 }
-
 // a
-Man.prototype.getName = function () {
+Man.prototype.getName = function () { 
 	return this.name;
 }
-
 // b
 Man.prototype.getName = function getName() {
 	return this.name;
 }
-
 // c
 Man.prototype.getName = () => {
 	return this.name;
 }
 ```
+</details>
 
 ## React interview questions
 1. What happens when you execute `setState()` in the `render()` method?
@@ -192,20 +233,20 @@ Man.prototype.getName = () => {
 1. How to create higher order component?
 1. Tell about React in the SEO context.
 1. Why rendering of React Components in the custom `<div id="app">` is good practice than simple to the `<body>`?
-1. What does mean "Isomorphic React Application"? - [@answer--smashingmagazine](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
-1. What is the difference between Mobx & Redux? - [@answer](https://www.robinwieruch.de/redux-mobx-confusion/)
+1. What does mean "Isomorphic React Application"? - [@smashingmagazine](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
+1. What is the difference between Mobx & Redux? - [@blog](https://www.robinwieruch.de/redux-mobx-confusion/)
 
 ## Typescript interview questions
-1. Talk about the differences between public, private, and protected class access modifiers? [@answer--typescriptlang.org](https://www.typescriptlang.org/docs/handbook/classes.html#public-private-and-protected-modifiers)
+1. Talk about the differences between public, private, and protected class access modifiers? [@docs](https://www.typescriptlang.org/docs/handbook/classes.html#public-private-and-protected-modifiers)
 
 ## GIT
-1. What is the main difference between `merge` and `rebase`? - [@answer](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+1. What is the main difference between `merge` and `rebase`? - [@blog](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ## Testing Questions
-1. Explain the difference between unit tests and integration tests? - [@answer--stackoverflow](https://stackoverflow.com/a/5357837/5513804)
-1. Tell about TDD. What advantages or disadvantages of this concept you know? [@answer--wiki](https://en.wikipedia.org/wiki/Test-driven_development)
+1. Explain the difference between unit tests and integration tests? - [@stackoverflow](https://stackoverflow.com/a/5357837/5513804)
+1. Tell about TDD. What advantages or disadvantages of this concept you know? [@wiki](https://en.wikipedia.org/wiki/Test-driven_development)
 1. Which frameworks/platforms do you use for test you code?
-1. List unit testing best practices principles. [@answer-slides](https://www.slideshare.net/homespothq/unit-testing-concepts-and-best-practices)
+1. List unit testing best practices principles. [@slides](https://www.slideshare.net/homespothq/unit-testing-concepts-and-best-practices)
 
 ## Funny Questions
 1. Do you like parties?
