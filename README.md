@@ -10,7 +10,7 @@
 The goal is to give a candidate the possibility to test his/her knowledge before a real-world interview.
 My experience and the experiences of other developers will help you get better interview results.
 
-Please send your Front-End interview questions (read the contributing [guide]('./CONTRIBUTING.md')).
+Please send your Front-End interview questions (read the contributing [guide]('CONTRIBUTING.md')).
 
 ## List of Content
 
@@ -98,7 +98,7 @@ Please send your Front-End interview questions (read the contributing [guide]('.
 ## Javascript Coding Questions
 
 <details>
-<summary>Write a `pipefy` function where a string received is returned, but with the `|` character between each character:</summary>
+<summary>Write a `pipefy` function where a string received is returned, but with the "|" character between each character:</summary>
 
 ```js
 pipefy();
@@ -182,10 +182,10 @@ new String('a') instanceof String && 'b' instanceof String;
 ```
 </details>
 <details>
-<summary>Does `a({}, 'val')` & `b({}, 'val')` will return the same?</summary>
+<summary>What the result of the following functions call? Is it the same?</summary>
 
 ```js
-var a = function (obj, val) {
+const a = function (obj, val) {
   obj.val = {
     a: 1,
     b: 2,
@@ -194,12 +194,17 @@ var a = function (obj, val) {
   return obj;
 };
 
-var b = function (obj, val) {
+
+
+const b = function (obj, val) {
   return (obj.val = {
     a: 1,
     b: 2,
   });
 };
+
+a({}, 'val');
+b({}, 'val');
 ```
 
 </details>
