@@ -34,6 +34,7 @@ ___
 1. [Javascript Coding Questions](#javascript-coding-questions)
 1. [React interview questions](#react-interview-questions)
 1. [Typescript interview questions](#typescript-interview-questions)
+1. [Security](#security)
 1. [Testing Questions](#testing-questions)
 1. [GIT](#git)
 1. [Funny Questions](#funny-questions)
@@ -42,12 +43,14 @@ ___
 ## Common interview questions
 
 1. What was the most interesting solution you implemented during your last project?
-1. What is the last book you read?
-1. How big was your team?
+1. What the latest programming book you've read.
+1. How big is/was your team?
 1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. Which developers do you know in the Front End community?
-1. What do you do to improve programming skills?
-1. What are the most common types of web attacks? - [@blog](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
+1. Are you a team player?
+1. What makes you a good developer?
+1. What next skill do you want to improve?
+1. What values can you bring to a new team?
 1. What is the difference between imperative and declarative programming in JS? - [@blog](https://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
 
 ## Common technical interview questions
@@ -59,6 +62,7 @@ ___
 1. List the main things you can do to increase page speed loading? - [@blog](https://www.@blog/blog/speed-up-your-website/)
 1. Progressive enhancement vs graceful degradation. What is the difference? - [@docs](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
 1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.js.org/) or [Browserify](https://browserify.org/) in your projects?
+1. What tools do you know or already use to improve your code?
 1. What do you know about "60fps"? How can you achieve it? - [@github](https://github.com/vasanthk/browser-rendering-optimization)
 1. What is the difference between layout, painting and compositing? - [@docs](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 1. What is Web Components? - [@docs](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
@@ -100,6 +104,7 @@ ___
 1. Is there any difference between Promises and callbacks? Which is better? - [@blog](http://callbackhell.com/),
 1. What is recursion? When is the use of recursion useful in Javascript? - [@blog](https://medium.com/@dis_is_patrick/practical-uses-for-recursive-javascript-b8f142552f8b)
 1. What do you hear about DRY, KISS, YAGNI? - [@blog](https://thefullstack.xyz/dry-yagni-kiss-tdd-soc-bdfu)
+1. What do you know about optional chaining operators? What benefits does it bring? [@docs](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#optional-chaining)
 
 #### JS Senior
 
@@ -258,17 +263,41 @@ Man.prototype.getName = () => {
 
 ## React interview questions
 
-1. What happens when you execute `setState()` in the `render()` method?
+### General
+
 1. What is the difference between 'smart and dummy' components?
 1. How to create higher order component?
-1. Tell about React in the SEO context.
-1. Why rendering of React Components in the custom `<div id="app">` is good practice than simple to the `<body>`?
+1. What is the difference between hoc, Renders Props and hooks patterns?
+1. Why it is a good practice to render React Components in `<div id="app"></div>` over `<body>`?
 1. What does mean "Isomorphic React Application"? - [@blog](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
+1. What happens when you execute `setState()` in the `render()` method?
+1. What is difference between useState() and useRef()?
+1. How do lifecycle methods correspond to hooks?
+1. Is it okay to call hooks inside loops or conditions?
+1. How do you handle errors in React?
+
+### Redux
+
 1. What is the difference between Mobx & Redux? - [@blog](https://www.robinwieruch.de/redux-mobx-confusion/)
+1. What do you think about ajax request in reducer?
+1. What architecture do you use to structure actions and reducers?
+1. What is the difference between reducers and actions?
+1. What is an action creator?
+1. Is Redux still relevant in 2020? Can React context replace Redux?
+1. What is middleware? Can you describe the use case where it can be used?
+1. Have you used reselect? 
+
 
 ## Typescript interview questions
 
 1. Talk about the differences between public, private, and protected class access modifiers? [@docs](https://www.typescriptlang.org/docs/handbook/classes.html#public-private-and-protected-modifiers)
+1. What typescript features do you use/know?
+1. What is a generic type? [@docs](https://www.typescriptlang.org/docs/handbook/generics.html)
+1. What Typescript utility types do you use/know (Omit, Partial)? [@docs](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)
+
+## Security
+
+1. What are the most common types of web attacks? - [@blog](https://blog.sucuri.net/2014/11/most-common-attacks-affecting-todays-websites.html)
 
 ## Testing Questions
 
