@@ -35,6 +35,7 @@ To make links short and self-descriptive use special tags:
 - @code - live code examples
 - @stackoverflow - link to answer/discussion on stackoverflow.com
 - @github - link some repo on github.com
+- @wiki - link to wikipedia.org
 
 Thanks to all these cool people :hand::  
 [Ken Hawkins](https://github.com/khawkins98)
