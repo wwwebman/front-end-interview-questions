@@ -7,7 +7,7 @@
   <a href="CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions">
   </a>
-	<a href="https://github.com/wwwebman/gulp-webpack-starter/blob/master/CONTRIBUTING.md">
+  <a href="https://github.com/wwwebman/gulp-webpack-starter/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/github/contributors/wwwebman/front-end-interview-questions.svg" alt="Contributors">
   </a>
   <a href="https://github.com/wwwebman/gulp-webpack-starter/blob/master/LICENSE">
@@ -22,7 +22,6 @@ My experience and the experiences of other developers will help you get better i
 **Rock your interview! :rocket:**
 ___
 
-<img src="banner.jpg" alt="Front End interview questions answers" width="70%" />
 
 ## List of Content
 
