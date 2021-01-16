@@ -22,7 +22,7 @@ My experience and the experiences of other developers will help you get better i
 **Rock your interview! :rocket:**
 ___
 
-<img src="banner.jpg" alt="Front End interview questions answers" width="50%" style="min-width:300px;" />
+<img src="banner.jpg" alt="Front End interview questions answers" width="70%" />
 
 ## List of Content
 
@@ -36,6 +36,7 @@ ___
 1. [Typescript interview questions](#typescript-interview-questions)
 1. [Security](#security)
 1. [Testing Questions](#testing-questions)
+1. :tada: [Recruiting tasks](#recruiting-tasks)
 1. [GIT](#git)
 1. [Funny Questions](#funny-questions)
 1. [Contribution](#contribution)
@@ -110,7 +111,7 @@ ___
 
 1. What patterns do you know and successfully use in JavaScript?
 1. What is the problem throttling and debouncing are resolved? What is the core difference between them? - [@blog](https://medium.com/@_jh3y/throttling-and-debouncing-in-javascript-b01cad5c8edf)
-1. What is SOLID? [@blog](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>)
+1. What is SOLID? [@wiki](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>)
 1. What is the difference between inheritance and composition? What do you prefer? Why? [@blog](https://hackernoon.com/javascript-functional-composition-for-every-day-use-22421ef65a10), [@blog](https://medium.com/front-end-hacking/classless-javascript-composition-over-inheritance-6b27c35893b1)
 
 ## Javascript Coding Questions
@@ -306,6 +307,10 @@ Man.prototype.getName = () => {
 1. Which frameworks/platforms do you use for test you code?
 1. List unit testing best practices principles. [@slides](https://www.slideshare.net/homespothq/unit-testing-concepts-and-best-practices)
 
+## Recruiting tasks
+
+1. [React user search](tasks/react-user-search)
+
 ## GIT
 
 1. What is the main difference between `merge` and `rebase`? - [@blog](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
@@ -320,3 +325,8 @@ Man.prototype.getName = () => {
 
 It would be cool to find your Front End interview question on our list. 
 Check out the contributing [guide](CONTRIBUTING.md) to get started.
+
+## License
+
+MIT License, Copyright © 2017-present, [Dmytro Chumak](https://webman.pro).
+See [LICENSE](./LICENSE) for more information.
