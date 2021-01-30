@@ -280,10 +280,11 @@ function normalizeCase(str) {
 1. Why it is a good practice to render React Components in `<div id="app"></div>` over `<body>`?
 1. What does mean "Isomorphic React Application"? - [@blog](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
 1. What happens when you execute `setState()` in the `render()` method?
-1. What is difference between useState() and useRef()?
+1. What is difference between `useState()` and `useRef()`?
 1. How do lifecycle methods correspond to hooks?
 1. Is it okay to call hooks inside loops or conditions?
 1. How do you handle errors in React?
+1. What the difference between `useEffect()` and `useLayoutEffect()`?
 
 ### Redux
 
