@@ -260,6 +260,15 @@ Man.prototype.getName = () => {
 ```
 
 </details>
+<summary>Implement normalizeCase() function that converts "HELLO worLD" to "Hello world".</summary>
+
+```js
+function normalizeCase(str) {
+  // The magic happens here.
+}
+```
+
+</details>
 
 ## React interview questions
 
