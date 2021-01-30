@@ -4,10 +4,9 @@
 | --------------- | ---------- | ---------- | ---- |
 | [React](https://reactjs.org/) | Medium | 4-12 hours | Check if a candidate can write reusable components, use best practices, work with asynchronous code using third-party API. |
 
-- If you are a **recruiter**, and the task doesn't fit the recruiting process ask your Tech Leads to modify the stack.
-- If you are a "candidate", don't copy/paste if you "googled" a ready solution for a similar task.
-  A technical person can catch you sooner or later. 
-  For both sides, it is wasting time if you won't implement this by yourself.
+- If you are a **recruiter**, and the task doesn't fit the recruiting process ask your Tech Lead to modify the stack
+- If you are a **candidate**, don't copy/paste if you found a solution on the Internet. A technical person can catch you sooner or later. 
+  For both sides, it is time-wasting if you won't implement this by yourself.
 
 ## Task
 
