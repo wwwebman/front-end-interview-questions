@@ -260,6 +260,7 @@ Man.prototype.getName = () => {
 ```
 
 </details>
+<details>
 <summary>Implement normalizeCase() function that converts "HELLO worLD" to "Hello world".</summary>
 
 ```js
