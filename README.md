@@ -276,16 +276,16 @@ function normalizeCase(str) {
 ### General
 
 1. What is the difference between 'smart and dummy' components?
-1. How to create higher order component?
+1. How to create a higher order component?
 1. What is the difference between hoc, Renders Props and hooks patterns?
-1. Why it is a good practice to render React Components in `<div id="app"></div>` over `<body>`?
+1. Why is it a good practice to render React Components in `<div id="app"></div>` over `<body>`?
 1. What does mean "Isomorphic React Application"? - [@blog](https://www.smashingmagazine.com/2015/04/react-to-the-future-with-isomorphic-apps/)
 1. What happens when you execute `setState()` in the `render()` method?
-1. What is difference between `useState()` and `useRef()`?
+1. What is the difference between `useState()` and `useRef()`?
 1. How do lifecycle methods correspond to hooks?
 1. Is it okay to call hooks inside loops or conditions?
 1. How do you handle errors in React?
-1. What the difference between `useEffect()` and `useLayoutEffect()`?
+1. What is the difference between `useEffect()` and `useLayoutEffect()`?
 
 ### Redux
 
