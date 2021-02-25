@@ -67,6 +67,7 @@ ___
 1. What is the difference between layout, painting and compositing? - [@docs](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
 1. What is Web Components? - [@docs](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 1. What is the difference between sessionStorage, localStorage and cookies? [@stackoverflow](https://stackoverflow.com/a/19869560/5513804)
+2. Describe your perfect React/Angular/Vue application stack?
 
 ## HTML Interview Questions
 
@@ -285,7 +286,7 @@ function normalizeCase(str) {
 1. How do lifecycle methods correspond to hooks?
 1. Is it okay to call hooks inside loops or conditions?
 1. How do you handle errors in React?
-1. What is the difference between `useEffect()` and `useLayoutEffect()`?
+1. What is the difference between `useEffect()` and `useLayoutEffect()`? 
 
 ### Redux
 
