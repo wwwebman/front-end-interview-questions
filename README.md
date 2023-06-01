@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://webman.pro">
-    <img src="https://raw.githubusercontent.com/wwwebman/wwwebman/master/wwwebman.svg" width="50px" alt="webman.pro">
+    <img src="https://webman.pro/logo.svg" width="50px" alt="webman.pro">
   </a>
   <br />
   <h1> Front End Interview Questions and Answers</h1>
@@ -16,8 +16,8 @@
 </div>
 <br />
 
-The goal is to give a candidate the possibility to test his/her knowledge before a real-world interview.
-My experience and the experiences of other developers will help you get better interview results.
+The goal is to provide candidates with the opportunity to test their knowledge before a real-world interview. 
+Drawing on my experience and the experiences of other developers, this resource will help you achieve better interview results.
 
 **Rock your interview! :rocket:**
 ___
@@ -42,32 +42,35 @@ ___
 
 ## Common interview questions
 
-1. What was the most interesting solution you implemented during your last project?
-1. What the latest programming book you've read.
-1. How big is/was your team?
-1. Have you ever worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
-1. Which developers do you know in the Front End community?
+1. What was the most interesting solution you implemented in your last project?
+1. What's the latest programming book you've read?
+1. How big was your team?
+1. Have you worked in [Agile, Scrum or Kanban](https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban) environments?
 1. Are you a team player?
 1. What makes you a good developer?
-1. What next skill do you want to improve?
+1. What skill do you want to improve next?
 1. What values can you bring to a new team?
-1. What is the difference between imperative and declarative programming in JS? - [@blog](https://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
+1. What problems are you most interested in solving?
+1. Describe your most recent project, how you solved it, and what you learned. What technologies did you use?
+1. What type of environment do you prefer to work in? Why?
+1. What does your ideal role look like?
 
 ## Common technical interview questions
 
 1. What is REST? - [@docs](https://restcookbook.com/)
-1. What is the difference between PUT and PATCH methods in REST? - [@stackoverflow](https://stackoverflow.com/questions/21660791/what-is-the-main-difference-between-patch-and-put-request)
-1. Talk about the differences between [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), long polling and [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events). - [@stackoverflow](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
-1. What is CORS? - [@blog](https://www.maxcdn.com/one/visual-glossary/cors/), [@docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
-1. List the main things you can do to increase page speed loading? - [@blog](https://www.@blog/blog/speed-up-your-website/)
-1. Progressive enhancement vs graceful degradation. What is the difference? - [@docs](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
-1. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.js.org/) or [Browserify](https://browserify.org/) in your projects?
-1. What tools do you know or already use to improve your code?
-1. What do you know about "60fps"? How can you achieve it? - [@github](https://github.com/vasanthk/browser-rendering-optimization)
-1. What is the difference between layout, painting and compositing? - [@docs](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
-1. What is Web Components? - [@docs](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
-1. What is the difference between sessionStorage, localStorage and cookies? [@stackoverflow](https://stackoverflow.com/a/19869560/5513804)
-2. Describe your perfect React/Angular/Vue application stack?
+2. What is the difference between imperative and declarative programming in JS? - [@blog](https://www.redotheweb.com/2015/09/18/declarative-imperative-js.html)
+3. What is the difference between PUT and PATCH methods in REST? - [@stackoverflow](https://stackoverflow.com/questions/21660791/what-is-the-main-difference-between-patch-and-put-request)
+4. Talk about the differences between [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), long polling and [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events). - [@stackoverflow](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
+5. What is CORS? - [@blog](https://www.maxcdn.com/one/visual-glossary/cors/), [@docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+6. List the main things you can do to increase page speed loading? - [@blog](https://www.@blog/blog/speed-up-your-website/)
+7. Progressive enhancement vs graceful degradation. What is the difference? - [@docs](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)
+8. Do you use [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/), [Webpack](https://webpack.js.org/) or [Browserify](https://browserify.org/) in your projects?
+9. What tools do you know or already use to improve your code?
+10. What do you know about "60fps"? How can you achieve it? - [@github](https://github.com/vasanthk/browser-rendering-optimization)
+11. What is the difference between layout, painting and compositing? - [@docs](https://developers.google.com/web/fundamentals/performance/rendering/?hl=en)
+12. What is Web Components? - [@docs](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+13. What is the difference between sessionStorage, localStorage and cookies? [@stackoverflow](https://stackoverflow.com/a/19869560/5513804)
+14. Describe your perfect React/Angular/Vue application stack?
 
 ## HTML Interview Questions
 
@@ -87,7 +90,7 @@ ___
 
 #### JS Junior
 
-1. Who is the author of JavaScript Language?
+1. Who is the author of JavaScript?
 1. What is the best book for learning JavaScript and why? - [@github](https://github.com/wwwebman/js-books-backpack)
 1. What is the type of NaN? How to check if a value is NaN?
 1. What the reason that `window.window === window` return true? - [@docs](https://developer.mozilla.org/pl/docs/Web/API/Window/window)
